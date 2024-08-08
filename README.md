@@ -1,15 +1,15 @@
 <html>
 <head>
 
-<b><h2><p style="font-family:Courier New">👋Hi there!</p></Left></h2></b><right>
+<b><h2><p style="font-family:Courier New">👋 Hi there!</p></Left></h2></b><right>
 <img src="https://github.com/user-attachments/assets/23135f6f-6cc4-4324-97bb-4dc56fe3d347" 
      width="239" 
      height="359" /></right>
 
 </head>
-Welcome to my GitHub profile! I'm Kenneth, a passionate software developer with a love for coding, learning, and creating innovative solutions. Here, you'll find a collection of my projects, contributions, and experiments.
+<center><b>Welcome to my GitHub profile! I'm Kenneth, a passionate software developer with a love for coding, learning, and creating innovative solutions. Here, you'll find a collection of my projects, contributions, and experiments.
 
-About Me
+About Me</b></center>
 
 
 🌱 I'm constantly learning and exploring new technologies.
@@ -24,16 +24,16 @@ About Me
 🚀 I'm always excited to collaborate on interesting projects and open source initiatives.
 
 
-What I Do
+<center><b>What I Do</b></center>
 
 
-Languages: Python, C++, Java (to name a few)
+Favorite Languages: Python, C++, Java
 
 
-Frameworks: React, Node.js, Django
+Favorite Frameworks: React, Node.js, Django
 
 
-Fun Facts
+<center><b>Fun Facts</b></center>
 
 
 🎨 I enjoy [your hobbies, e.g., painting, hiking, playing guitar, etc.] when I'm not coding.
@@ -45,7 +45,7 @@ Fun Facts
 🤝 I'm always open to new opportunities and collaborations. Feel free to reach out!
 
 
-Get in Touch
+<center><b>Get in Touch</b></center>
 
 
 LinkedIn: https://www.linkedin.com/in/qkennethkimbrough/
@@ -55,6 +55,6 @@ LinkedIn: https://www.linkedin.com/in/qkennethkimbrough/
 Email: q.kennethkimbrough@outlook.com
 
 
-Thanks for stopping by! Let's connect and create something amazing together.
+<center><b>Thanks for stopping by! Let's connect and create something amazing together.</b></center>
 
 </html>
