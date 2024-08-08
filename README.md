@@ -36,7 +36,7 @@ Favorite Frameworks: React, Node.js, Django
 <center><b>Fun Facts</b></center>
 
 
-🎨 I enjoy [your hobbies, e.g., painting, hiking, playing guitar, etc.] when I'm not coding.
+🎨 I enjoy reading, video games, and exerecising when I'm not coding.
 
 
 📝 I occasionally write about tech and share my thoughts on my linkedin
