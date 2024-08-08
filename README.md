@@ -24,29 +24,6 @@ About Me</b></center>
 🚀 I'm always excited to collaborate on interesting projects and open source initiatives.
 
 
-<center><b>What I Do</b></center>
-
-
-Favorite Languages: Python, C++, Java
-
-
-Favorite Frameworks: React, Node.js, Django
-
-
-<center><b>Fun Facts</b></center>
-
-
-🎨 I enjoy reading, video games, and exerecising when I'm not coding.
-
-
-📝 I occasionally write about tech and share my thoughts on my linkedin
-
-
-🤝 I'm always open to new opportunities and collaborations. Feel free to reach out!
-
-
-<center><b>Get in Touch</b></center>
-
 
 LinkedIn: https://www.linkedin.com/in/qkennethkimbrough/
 
