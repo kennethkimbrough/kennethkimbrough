@@ -4,7 +4,7 @@
 </head>
 <body>
   <header>
-    <img align="right" alt="GIF" width="215" height="323" src="https://github.com/user-attachments/assets/23135f6f-6cc4-4324-97bb-4dc56fe3d347" />
+    <img align="right" alt="GIF" width="172" height="258" src="https://github.com/user-attachments/assets/23135f6f-6cc4-4324-97bb-4dc56fe3d347" />
   </header>
   <section>
     <h1>
