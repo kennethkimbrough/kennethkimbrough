@@ -41,6 +41,19 @@ first visit, and keeps all data on the device.
 *TypeScript · plain ES modules, no framework or bundler · service worker ·
 Playwright end-to-end tests*
 
+### Biscuit's Bowls — a cat-café logic-puzzle game
+
+**Play it:** https://cat-cafe-v50-test.epicsigmaker.chatgpt.site
+
+Place food bowls so every cat has exactly one neighbouring bowl. A 100-puzzle
+campaign across four chapters, 17 bonus tables, Endless and Rush Hour modes,
+and co-op and timed-versus multiplayer, plus a café of 21 collectable cats to
+look after between puzzles. Accounts, cloud saves and multiplayer run on
+Cloudflare Workers with a database behind them; the puzzles themselves work
+offline. The source is private ahead of an iPhone release.
+
+*TypeScript · React / Next.js · Cloudflare Workers · Drizzle ORM · screenshot-based release checks*
+
 ## Elsewhere
 
 - [trending-songs-finder](https://github.com/kennethkimbrough/trending-songs-finder) — small Python service that pulls track recommendations from the Spotify API into MySQL, with unit tests and a Dockerfile.
