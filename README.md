@@ -16,12 +16,13 @@ and brush-stroke features into a logistic regression) and a fine-tuned
 ResNet-18 all run from one GitHub Actions workflow, and every reported number
 comes from a committed run.
 
-Latest run (1,452 WikiArt images, 289 held out for validation, trained on a
-CPU runner): the CNN reaches **72% accuracy and 92% top-3 accuracy**, against
-51% for the classical baseline and 10% chance. The confusions are the ones an
-art historian would predict, such as the three Venetians (Titian, Tintoretto,
-Veronese) with each other. It is not an authentication tool: style cannot
-separate a master from a good copy.
+Latest run (1,653 WikiArt images, 327 held out for validation, 13 minutes of
+training on a CPU runner): the CNN reaches **77.7% accuracy and 96.0% top-3
+accuracy**, against 52.6% for the classical baseline and 10% chance. The
+confusions are the ones an art historian would predict, such as the three
+Venetians (Titian, Tintoretto, Veronese) with each other, and Grad-CAM
+heatmaps show where the network looks. It is not an authentication tool:
+style cannot separate a master from a good copy.
 
 *Python · PyTorch · scikit-learn · GitHub Actions*
 
