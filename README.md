@@ -56,5 +56,5 @@ offline. The source is private ahead of an iPhone release.
 
 ## Elsewhere
 
-- [trending-songs-finder](https://github.com/kennethkimbrough/trending-songs-finder) — small Python service that pulls track recommendations from the Spotify API into MySQL, with unit tests and a Dockerfile.
-- [mlb-injuries](https://github.com/kennethkimbrough/mlb-injuries) — Java client that lists currently injured MLB players from the SportsData.io API.
+- [mlb-injuries](https://github.com/kennethkimbrough/mlb-injuries) — Java command-line tracker that pulls the MLB injury list from the SportsData.io API, records a daily snapshot, and reports who has been out longest and which teams are hit hardest. Maven, JUnit 5, scheduled GitHub Actions run.
+- [trending-songs-finder](https://github.com/kennethkimbrough/trending-songs-finder) — Python tool that stores Spotify's new-releases list in MySQL on each run and reports what entered, dropped off, moved, and stayed longest. Unit tests, Docker.
