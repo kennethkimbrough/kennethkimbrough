@@ -1,6 +1,6 @@
 # Hi, I'm Kenneth 👋
 
-<img align="right" width="150" alt="Pixel-art animation of hands typing on a laptop" src="https://github.com/user-attachments/assets/23135f6f-6cc4-4324-97bb-4dc56fe3d347" />
+<img align="right" width="175" alt="Pixel-art animation of hands typing on a laptop" src="https://github.com/user-attachments/assets/23135f6f-6cc4-4324-97bb-4dc56fe3d347" />
 
 I've always been interested in how AI models think and interact with each
 other. Lately I've been building projects to find out, like a model that guesses
