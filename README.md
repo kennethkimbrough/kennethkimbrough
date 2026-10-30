@@ -28,6 +28,8 @@ style cannot separate a master from a good copy.
 
 ### [tit-for-token](https://github.com/kennethkimbrough/tit-for-token) — how language models play repeated strategic games
 
+**Results:** https://kennethkimbrough.github.io/tit-for-token/
+
 Round-robin tournaments of the iterated prisoner's dilemma between language
 models from different labs and classic strategies like Tit-for-Tat. Every
 model call is recorded, so a tournament replays byte-for-byte without the
