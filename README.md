@@ -5,9 +5,9 @@
 I've always been interested in how AI models think and interact with each
 other. Lately I've been building projects to find out, like a model that guesses
 who painted a Renaissance painting and a tournament where AI models go head to
-head.
+head.<br clear="right" />
 
-### Tech stack
+## Tech stack
 
 - **Languages:** Python, TypeScript, JavaScript, Java, SQL
 - **Frontend:** React, Next.js, HTML, CSS
