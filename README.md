@@ -11,7 +11,7 @@ some Java.
 
 ## Featured projects
 
-### [Renart](https://github.com/kennethkimbrough/Renart) — which Renaissance master painted it?
+### [Renart](https://github.com/kennethkimbrough/Renart): which Renaissance master painted it?
 
 Ranks which of ten painters made a painting from its style alone. A fine-tuned
 ResNet-18 gets **77.7% right** (96% with the painter in its top 3) against
@@ -20,7 +20,7 @@ number exactly.
 
 **[Results site](https://kennethkimbrough.github.io/Renart/)** · *Python · PyTorch · scikit-learn · GitHub Actions*
 
-### [tit-for-token](https://github.com/kennethkimbrough/tit-for-token) — how language models play repeated games
+### [tit-for-token](https://github.com/kennethkimbrough/tit-for-token): how language models play repeated games
 
 Tournaments of the iterated prisoner's dilemma between language models from
 four labs and classic strategies like Tit-for-Tat, recorded so every match
@@ -30,7 +30,7 @@ less (49% of its rounds against Haiku's 81%).
 
 **[Results site](https://kennethkimbrough.github.io/tit-for-token/)** · *Python (standard library only) · asyncio · bootstrap statistics · GitHub Actions*
 
-### [Outage Ready](https://github.com/kennethkimbrough/outage-ready) — how long your household lasts in an outage
+### [Outage Ready](https://github.com/kennethkimbrough/outage-ready): how long your household lasts in an outage
 
 A simulator rather than a checklist: enter what you have and how your home
 works, and it plays each outage forward hour by hour to show how long you are
@@ -39,7 +39,7 @@ offline and keeps all data on the device.
 
 **[Live app](https://kennethkimbrough.github.io/outage-ready/)** · *TypeScript · no framework · service worker · Playwright end-to-end tests*
 
-### Biscuit's Bowls — a cat-café logic-puzzle game
+### Biscuit's Bowls: a cat-café logic-puzzle game
 
 A 100-puzzle campaign with Endless, Rush Hour, and co-op and versus
 multiplayer, heading for an iPhone release (source private). Two phones stay
@@ -50,5 +50,5 @@ every move and database constraints settling the races.
 
 ## Elsewhere
 
-- [mlb-injuries](https://github.com/kennethkimbrough/mlb-injuries) — Java tracker for MLB's injured lists: a daily snapshot from the public MLB Stats API and reports on who has been out longest. Maven, JUnit 5.
-- [trending-songs-finder](https://github.com/kennethkimbrough/trending-songs-finder) — Python tracker for Spotify's new releases that reports what entered, dropped off and stayed longest. MySQL, Docker.
+- [mlb-injuries](https://github.com/kennethkimbrough/mlb-injuries): a Java tracker for MLB's injured lists that takes a daily snapshot from the public MLB Stats API and reports who has been out longest. Maven, JUnit 5.
+- [trending-songs-finder](https://github.com/kennethkimbrough/trending-songs-finder): a Python tracker for Spotify's new releases that reports what entered, dropped off and stayed longest. MySQL, Docker.
