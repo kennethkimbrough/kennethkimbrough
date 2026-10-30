@@ -25,5 +25,3 @@ head.
 - **Outage Ready**: shows how long your home can last in a power or water outage. [Try it](https://kennethkimbrough.github.io/outage-ready/)
 - **Zeros Removed**: currency redenominations since 1945, chained for 195 countries, with a source on every rate. Converts any old banknote to today's money and dollars. [Try it](https://kennethkimbrough.github.io/redenominations/)
 - **Biscuit's Bowls**: a cat café puzzle game coming to iPhone. [How the multiplayer works](https://github.com/kennethkimbrough/kennethkimbrough/blob/main/biscuits-bowls-multiplayer.md)
-
-Also: daily trackers for [MLB injured lists](https://kennethkimbrough.github.io/mlb-injuries/) (Java) and [Apple Music's top songs](https://kennethkimbrough.github.io/trending-songs-finder/) (Python), each updated by a scheduled job.
