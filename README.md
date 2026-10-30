@@ -9,6 +9,8 @@ and I'm always up for collaborating on open-source work.
 
 ### [Renart](https://github.com/kennethkimbrough/Renart) — style-based artist attribution for Renaissance paintings
 
+**Results:** https://kennethkimbrough.github.io/Renart/
+
 Given a photograph of a Renaissance painting, Renart ranks which of ten
 painters most likely made it, from style alone. It is a reproducible
 pipeline: the data download, a classical baseline (102 hand-crafted colour
@@ -18,7 +20,8 @@ comes from a committed run.
 
 Latest run (1,653 WikiArt images, 327 held out for validation, 13 minutes of
 training on a CPU runner): the CNN reaches **77.7% accuracy and 96.0% top-3
-accuracy**, against 52.6% for the classical baseline and 10% chance. The
+accuracy**, against 52.6% for the classical baseline and 10% chance, and a
+second, independent run reproduced every number exactly. The
 confusions are the ones an art historian would predict, such as the three
 Venetians (Titian, Tintoretto, Veronese) with each other, and Grad-CAM
 heatmaps show where the network looks. It is not an authentication tool:
