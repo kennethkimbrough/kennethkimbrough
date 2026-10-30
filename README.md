@@ -2,87 +2,51 @@
 
 # Hello world!
 
-I build backend and data projects in Java, Python and JavaScript/TypeScript,
-and I'm always up for collaborating on open-source work.
+I like building things that can back up their own results: machine-learning
+and language-model experiments that anyone can rerun and check, and apps with
+tests on the parts that are hard to get right. Mostly Python and TypeScript,
+some Java.
 
 ## Featured projects
 
-### [Renart](https://github.com/kennethkimbrough/Renart) — style-based artist attribution for Renaissance paintings
+### [Renart](https://github.com/kennethkimbrough/Renart) — which Renaissance master painted it?
 
-**Results:** https://kennethkimbrough.github.io/Renart/
+Ranks which of ten painters made a painting from its style alone. A fine-tuned
+ResNet-18 gets **77.7% right** (96% with the painter in its top 3) against
+52.6% for a classical baseline, and an independent rerun reproduced every
+number exactly.
 
-Given a photograph of a Renaissance painting, Renart ranks which of ten
-painters most likely made it, from style alone. It is a reproducible
-pipeline: the data download, a classical baseline (102 hand-crafted colour
-and brush-stroke features into a logistic regression) and a fine-tuned
-ResNet-18 all run from one GitHub Actions workflow, and every reported number
-comes from a committed run.
+**[Results site](https://kennethkimbrough.github.io/Renart/)** · *Python · PyTorch · scikit-learn · GitHub Actions*
 
-Latest run (1,653 WikiArt images, 327 held out for validation, 13 minutes of
-training on a CPU runner): the CNN reaches **77.7% accuracy and 96.0% top-3
-accuracy**, against 52.6% for the classical baseline and 10% chance, and a
-second, independent run reproduced every number exactly. The
-confusions are the ones an art historian would predict, such as the three
-Venetians (Titian, Tintoretto, Veronese) with each other, and Grad-CAM
-heatmaps show where the network looks. It is not an authentication tool:
-style cannot separate a master from a good copy.
+### [tit-for-token](https://github.com/kennethkimbrough/tit-for-token) — how language models play repeated games
 
-*Python · PyTorch · scikit-learn · GitHub Actions*
+Tournaments of the iterated prisoner's dilemma between language models from
+four labs and classic strategies like Tit-for-Tat, recorded so every match
+replays byte-for-byte. In the first 400 matches, Claude Haiku and DeepSeek
+played almost exactly like Grim Trigger, while Gemini Flash cooperated far
+less (49% of its rounds against Haiku's 81%).
 
-### [tit-for-token](https://github.com/kennethkimbrough/tit-for-token) — how language models play repeated strategic games
+**[Results site](https://kennethkimbrough.github.io/tit-for-token/)** · *Python (standard library only) · asyncio · bootstrap statistics · GitHub Actions*
 
-**Results:** https://kennethkimbrough.github.io/tit-for-token/
+### [Outage Ready](https://github.com/kennethkimbrough/outage-ready) — how long your household lasts in an outage
 
-Round-robin tournaments of the iterated prisoner's dilemma between language
-models from different labs and classic strategies like Tit-for-Tat. Every
-model call is recorded, so a tournament replays byte-for-byte without the
-network, and CI re-checks the committed results on every push. The report
-measures cooperation, retaliation, forgiveness and exploitation, each with a
-bootstrap confidence interval.
+A simulator rather than a checklist: enter what you have and how your home
+works, and it plays each outage forward hour by hour to show how long you are
+covered, what fails first and what to do now. Installs as an app, works fully
+offline and keeps all data on the device.
 
-First tournament (400 matches): Claude Haiku and DeepSeek Flash played almost
-exactly like Grim Trigger, cooperating until betrayed and then almost never
-forgiving, while Gemini Flash cooperated in 49% of its rounds against
-Haiku's 81%. A dry run caught reasoning models being cut off mid-thought and
-recorded as defecting; the report now marks a player's results invalid
-whenever that happens often enough to distort them.
-
-*Python (standard library only) · asyncio · record and replay · bootstrap statistics · GitHub Actions*
-
-### [Outage Ready](https://github.com/kennethkimbrough/outage-ready) — what your household can sustain in an outage
-
-**Live:** https://kennethkimbrough.github.io/outage-ready/
-
-Most preparedness advice is a checklist; Outage Ready is a simulator. You
-enter what you have on hand and how your home works (pumped or gravity water,
-electric or gas cooking, fridge and freezer), and it plays each outage
-scenario forward hour by hour, following the dependencies in your home, to
-tell you how long you are covered, what fails first and why, and what to do
-now. It installs as a PWA on desktop and mobile, works fully offline after the
-first visit, and keeps all data on the device.
-
-*TypeScript · plain ES modules, no framework or bundler · service worker ·
-Playwright end-to-end tests*
+**[Live app](https://kennethkimbrough.github.io/outage-ready/)** · *TypeScript · no framework · service worker · Playwright end-to-end tests*
 
 ### Biscuit's Bowls — a cat-café logic-puzzle game
 
-Place food bowls so every cat has exactly one neighbouring bowl. A 100-puzzle
-campaign across four chapters, 17 bonus tables, Endless and Rush Hour modes,
-and co-op and timed-versus multiplayer, plus a café of 21 collectable cats to
-look after between puzzles. Accounts, cloud saves and multiplayer run on
-Cloudflare Workers with a database behind them; the puzzles themselves work
-offline. The source is private ahead of an iPhone release.
+A 100-puzzle campaign with Endless, Rush Hour, and co-op and versus
+multiplayer, heading for an iPhone release (source private). Two phones stay
+in sync over plain HTTP and one SQLite database, with the server checking
+every move and database constraints settling the races.
 
-**[How the multiplayer works](https://github.com/kennethkimbrough/kennethkimbrough/blob/main/biscuits-bowls-multiplayer.md):**
-two phones kept in sync over plain HTTP and one SQLite database. The server
-rebuilds each puzzle from a seed and checks every move, applies each move
-exactly once even when a phone retries, and lets database constraints settle
-the races (two players pairing, joining or rematching at the same moment),
-with tests that pause a query mid-request to force each race.
-
-*TypeScript · React / Next.js · Cloudflare Workers · Drizzle ORM · screenshot-based release checks*
+**[How the multiplayer works](https://github.com/kennethkimbrough/kennethkimbrough/blob/main/biscuits-bowls-multiplayer.md)** · *TypeScript · React / Next.js · Cloudflare Workers · Drizzle ORM*
 
 ## Elsewhere
 
-- [mlb-injuries](https://github.com/kennethkimbrough/mlb-injuries) — Java command-line tracker that reads MLB's injured lists from the public MLB Stats API, records a daily snapshot, and reports who has been out longest and which teams are hit hardest. Maven, JUnit 5, scheduled GitHub Actions run.
-- [trending-songs-finder](https://github.com/kennethkimbrough/trending-songs-finder) — Python tool that stores Spotify's new-releases list in MySQL on each run and reports what entered, dropped off, moved, and stayed longest. Unit tests, Docker.
+- [mlb-injuries](https://github.com/kennethkimbrough/mlb-injuries) — Java tracker for MLB's injured lists: a daily snapshot from the public MLB Stats API and reports on who has been out longest. Maven, JUnit 5.
+- [trending-songs-finder](https://github.com/kennethkimbrough/trending-songs-finder) — Python tracker for Spotify's new releases that reports what entered, dropped off and stayed longest. MySQL, Docker.
