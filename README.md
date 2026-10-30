@@ -6,8 +6,10 @@
 
 ## About me
 
-I'm a developer who likes building games and data projects. Right now I'm
-getting Biscuit's Bowls, my cat café puzzle game, ready for the iPhone.
+I've always been interested in how AI models think and interact with each
+other. Lately I've been building projects to find out, like a model that guesses
+who painted a Renaissance painting and a tournament where AI models go head to
+head.
 
 ## Tech stack
 
