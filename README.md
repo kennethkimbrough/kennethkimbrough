@@ -26,6 +26,24 @@ style cannot separate a master from a good copy.
 
 *Python · PyTorch · scikit-learn · GitHub Actions*
 
+### [tit-for-token](https://github.com/kennethkimbrough/tit-for-token) — how language models play repeated strategic games
+
+Round-robin tournaments of the iterated prisoner's dilemma between language
+models from different labs and classic strategies like Tit-for-Tat. Every
+model call is recorded, so a tournament replays byte-for-byte without the
+network, and CI re-checks the committed results on every push. The report
+measures cooperation, retaliation, forgiveness and exploitation, each with a
+bootstrap confidence interval.
+
+First tournament (400 matches): Claude Haiku and DeepSeek Flash played almost
+exactly like Grim Trigger, cooperating until betrayed and then never
+forgiving, while Gemini Flash cooperated in 49% of its rounds against
+Haiku's 81%. A dry run caught reasoning models being cut off mid-thought and
+recorded as defecting; the report now marks a player's results invalid
+whenever that happens often enough to distort them.
+
+*Python (standard library only) · asyncio · record and replay · bootstrap statistics · GitHub Actions*
+
 ### [Outage Ready](https://github.com/kennethkimbrough/outage-ready) — what your household can sustain in an outage
 
 **Live:** https://kennethkimbrough.github.io/outage-ready/
