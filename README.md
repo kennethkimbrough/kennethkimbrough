@@ -70,6 +70,13 @@ look after between puzzles. Accounts, cloud saves and multiplayer run on
 Cloudflare Workers with a database behind them; the puzzles themselves work
 offline. The source is private ahead of an iPhone release.
 
+**[How the multiplayer works](https://github.com/kennethkimbrough/kennethkimbrough/blob/main/biscuits-bowls-multiplayer.md):**
+two phones kept in sync over plain HTTP and one SQLite database. The server
+rebuilds each puzzle from a seed and checks every move, applies each move
+exactly once even when a phone retries, and lets database constraints settle
+the races (two players pairing, joining or rematching at the same moment),
+with tests that pause a query mid-request to force each race.
+
 *TypeScript · React / Next.js · Cloudflare Workers · Drizzle ORM · screenshot-based release checks*
 
 ## Elsewhere
