@@ -16,8 +16,6 @@ head.
 - **Machine learning:** PyTorch, scikit-learn
 - **Tools:** Git, GitHub Actions, Docker, Playwright, Maven
 
-<br clear="right" />
-
 ## Featured projects
 
 - **Renart**: guesses which Renaissance painter made a painting, right 78% of the time. [See the results](https://kennethkimbrough.github.io/Renart/)
