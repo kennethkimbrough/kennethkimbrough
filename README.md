@@ -36,7 +36,7 @@ measures cooperation, retaliation, forgiveness and exploitation, each with a
 bootstrap confidence interval.
 
 First tournament (400 matches): Claude Haiku and DeepSeek Flash played almost
-exactly like Grim Trigger, cooperating until betrayed and then never
+exactly like Grim Trigger, cooperating until betrayed and then almost never
 forgiving, while Gemini Flash cooperated in 49% of its rounds against
 Haiku's 81%. A dry run caught reasoning models being cut off mid-thought and
 recorded as defecting; the report now marks a player's results invalid
