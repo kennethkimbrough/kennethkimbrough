@@ -1,5 +1,4 @@
 # Hi, I'm Kenneth 👋
-## About me
 
 <img align="right" width="150" alt="Pixel-art animation of hands typing on a laptop" src="https://github.com/user-attachments/assets/23135f6f-6cc4-4324-97bb-4dc56fe3d347" />
 
