@@ -1,6 +1,6 @@
 # How multiplayer works in Biscuit's Bowls
 
-[Biscuit's Bowls](https://cat-cafe-v50-test.epicsigmaker.chatgpt.site) is a
+Biscuit's Bowls is a
 logic-puzzle game: place food bowls so every cat has exactly one neighbouring
 bowl. Its multiplayer has two modes:
 

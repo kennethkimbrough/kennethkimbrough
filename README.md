@@ -61,8 +61,6 @@ Playwright end-to-end tests*
 
 ### Biscuit's Bowls — a cat-café logic-puzzle game
 
-**Play it:** https://cat-cafe-v50-test.epicsigmaker.chatgpt.site
-
 Place food bowls so every cat has exactly one neighbouring bowl. A 100-puzzle
 campaign across four chapters, 17 bonus tables, Endless and Rush Hour modes,
 and co-op and timed-versus multiplayer, plus a café of 21 collectable cats to
