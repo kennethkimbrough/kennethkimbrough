@@ -7,6 +7,8 @@ and language-model experiments that anyone can rerun and check, and apps with
 tests on the parts that are hard to get right. Mostly Python and TypeScript,
 some Java.
 
+**[LinkedIn](https://www.linkedin.com/in/qkennethkimbrough/)**
+
 ## Featured projects
 
 ### [Renart](https://github.com/kennethkimbrough/Renart) — which Renaissance master painted it?
