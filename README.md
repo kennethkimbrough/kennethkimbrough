@@ -1,5 +1,5 @@
 # Hi, I'm Kenneth 👋
-## About me
+About me
 
 <img align="right" width="150" alt="Pixel-art animation of hands typing on a laptop" src="https://github.com/user-attachments/assets/23135f6f-6cc4-4324-97bb-4dc56fe3d347" />
 
@@ -17,7 +17,8 @@ head.
 - **Tools:** Git, GitHub Actions, Docker, Playwright, Maven
 
 <br clear="right" />
-## Featured projects
+
+### Featured projects
 
 - **Renart**: guesses which Renaissance painter made a painting, right 78% of the time. [See the results](https://kennethkimbrough.github.io/Renart/)
 - **tit-for-token**: AI models play the prisoner's dilemma against each other. [See the results](https://kennethkimbrough.github.io/tit-for-token/)
